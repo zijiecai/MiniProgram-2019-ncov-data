@@ -1,0 +1,21 @@
+<!--components/table-body/table-body-item/table-body-item.wxml-->
+<view class="table-body-item">
+    <view class="cityInfo cityname" bind:tap="handleNameClick">
+      <image wx:if="{{selected}}" src="/asserts/image/三角右.png"></image>
+      <image wx:else src="/asserts/image/三角下.png"></image>
+      <text>{{cityInfo.name}}</text>
+    </view>
+    <view class="cityInfo">
+      <text>{{cityInfo.total.confirm}}</text>
+    </view>
+    <view class="cityInfo">
+      <text>{{cityInfo.total.heal}}</text>
+    </view>
+    <view class="cityInfo">
+      <text>{{cityInfo.total.dead}}</text>
+    </view>
+</view>
+<!-- 该省的各个地级市疫情数据 -->
+<view wx:if="{{!selected}}">
+  <body-item-area areaInfoChildren="{{cityInfo.children}}"></body-item-area>
+</view>

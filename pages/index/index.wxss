@@ -1,0 +1,13 @@
+/**index.wxss**/
+.lastupdatetime{
+  margin-top: 4rpx;
+  padding: 5rpx;
+  text-align: center;
+  color: #ffffff;
+}
+
+.lastupdatetime text{
+  padding: 5rpx;
+  background-color: #9c88ff;
+  border-radius: 8rpx;
+}

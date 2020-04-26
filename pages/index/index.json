@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "table-title":"/components/table-title/table-title",
+    "table-body":"/components/table-body/table-body"
+  }
+}

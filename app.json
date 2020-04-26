@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#9c88ff",
+    "navigationBarTitleText": "实时疫情",
+    
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#f5f6fa",
+    "enablePullDownRefresh": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

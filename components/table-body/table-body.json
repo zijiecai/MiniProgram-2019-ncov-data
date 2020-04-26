@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "body-item":"table-body-item/table-body-item"
+  }
+}

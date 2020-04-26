@@ -1,0 +1,24 @@
+/* components/table-body/table-body-item/table-body-item.wxss */
+.table-body-item{
+  display: flex;
+}
+
+.table-body-item .cityInfo{
+  flex: 1;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20rpx 10rpx;
+  margin: 4rpx 5rpx;
+  border-radius: 6rpx;
+}
+
+.table-body-item .cityname{
+  background-color: #45aaf2;
+  text-align: left;
+}
+
+.table-body-item image{
+  padding-right: 8rpx;
+  width: 40rpx;
+  height: 40rpx;
+}

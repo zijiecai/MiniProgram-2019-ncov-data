@@ -1,0 +1,8 @@
+<!--components/table-title/table-title.wxml-->
+<view class="table-title">
+  <block wx:for="{{titles}}" wx:key="index">
+    <view class="title-item">
+      <text>{{item}}</text>
+    </view>
+  </block>
+</view>

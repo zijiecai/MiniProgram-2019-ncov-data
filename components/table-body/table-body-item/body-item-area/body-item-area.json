@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "areaInfo-item":"areaInfo-item/areaInfo-item"
+  }
+}

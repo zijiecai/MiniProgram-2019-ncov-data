@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "body-item-area":"body-item-area/body-item-area"
+  }
+}

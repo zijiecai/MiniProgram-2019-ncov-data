@@ -1,0 +1,15 @@
+<!--components/table-body/table-body-item/body-item-area/areaInfo-item/areaInfo-item.wxml-->
+<view class="areaInfo-item">
+  <view class="areaInfos name">
+    <text>{{areaInfo.name}}</text>
+  </view>
+  <view class="areaInfos">
+    <text>{{areaInfo.total.confirm}}</text>
+  </view>
+  <view class="areaInfos">
+    <text>{{areaInfo.total.heal}}</text>
+  </view>
+  <view class="areaInfos">
+    <text>{{areaInfo.total.dead}}</text>
+  </view>
+</view>

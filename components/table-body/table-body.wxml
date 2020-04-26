@@ -1,0 +1,8 @@
+<!--components/table-body/table-body.wxml-->
+<view class="table-body">
+  <block wx:for="{{children}}" wx:key="index">
+    <view class="children-item">
+      <body-item cityInfo="{{item}}"></body-item>
+    </view>
+  </block>
+</view>

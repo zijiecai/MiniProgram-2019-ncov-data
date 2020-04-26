@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="lastupdatetime">
+  <text>最新更新时间:{{lastUpdateTime}}</text>
+</view>
+<table-title titles="{{titles}}"></table-title>
+<table-body children="{{children}}"></table-body>
+

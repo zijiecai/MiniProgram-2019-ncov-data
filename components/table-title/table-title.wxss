@@ -1,0 +1,13 @@
+/* components/table-title/table-title.wxss */
+
+.table-title{
+  display: flex;
+}
+
+.title-item{
+  flex: 1;
+  text-align: center;
+  background-color: #dfe6e9;
+  padding: 20rpx 10rpx;
+  margin: 5rpx 5rpx;
+}

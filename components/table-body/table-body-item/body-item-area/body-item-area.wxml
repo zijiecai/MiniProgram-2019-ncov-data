@@ -1,0 +1,8 @@
+<!--components/table-body/table-body-item/body-item-area/body-item-area.wxml-->
+<view class="body-item-area">
+  <block wx:for="{{areaInfoChildren}}" wx:key="index"> 
+    <view class="areaInfo-item">
+      <areaInfo-item areaInfo="{{item}}"></areaInfo-item>
+    </view>
+  </block>
+</view>

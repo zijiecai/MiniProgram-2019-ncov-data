@@ -1,0 +1,17 @@
+/* components/table-body/table-body-item/body-item-area/areaInfo-item/areaInfo-item.wxss */
+.areaInfo-item{
+  display: flex;
+  padding: 8rpx 0;
+  border-bottom: 2rpx solid #dfe6e9;
+}
+
+.areaInfo-item .areaInfos{
+  flex: 1;
+  text-align: center;
+  border-right: 2rpx solid #dfe6e9;
+}
+
+.areaInfo-item .name{
+  text-align: left;
+  padding-left: 20rpx;
+}
